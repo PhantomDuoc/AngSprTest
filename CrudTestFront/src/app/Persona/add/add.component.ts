@@ -24,8 +24,8 @@ export class AddComponent implements OnInit {
     })
   }
 
-  resetForm(){
-
+  cancel(){
+    this.router.navigate(["list"])
   }
 
 }
