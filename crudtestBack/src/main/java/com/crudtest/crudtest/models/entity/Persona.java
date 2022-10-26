@@ -1,5 +1,5 @@
 
-package com.crudtest.crudtest;
+package com.crudtest.crudtest.models.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,6 +20,16 @@ public class Persona {
     private String nombres;
     @Column
     private String apellidos;
+
+    public Persona(int id, String nombres, String apellidos) {
+        setId(id);
+        setNombres(nombres);
+        setApellidos(apellidos);
+    }
+
+    public Persona() {
+
+    }
 
     public int getId() {
         return id;

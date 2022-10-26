@@ -1,6 +1,9 @@
-package com.crudtest.crudtest;
+package com.crudtest.crudtest.models.services;
 
 import java.util.List;
+
+import com.crudtest.crudtest.models.entity.Persona;
+import com.crudtest.crudtest.models.repositories.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

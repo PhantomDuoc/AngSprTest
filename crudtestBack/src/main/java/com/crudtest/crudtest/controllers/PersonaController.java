@@ -1,4 +1,4 @@
-package com.crudtest.crudtest;
+package com.crudtest.crudtest.controllers;
 
 import java.util.List;
 import java.util.Set;
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.crudtest.crudtest.models.services.*;
+import com.crudtest.crudtest.models.entity.*;
+
 
 @CrossOrigin(origins = "http://localhost:4200", maxAge=3600)
 @RestController
